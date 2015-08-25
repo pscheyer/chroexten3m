@@ -35,6 +35,7 @@ walk(document.body);
 
         text = text.replace(/TRUMP/g, "DUCK");
         text = text.replace(/Trump/g, "Duck");
+	text = text.replace(/trump/g, "duck");
 
         text = text.replace(/\bHacker\b/g, "Pooper");
         text = text.replace(/\bhacker\b/g, "pooper");
